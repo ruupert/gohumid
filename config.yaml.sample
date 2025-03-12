@@ -1,0 +1,14 @@
+config:
+  verbose: false
+  db:
+    name: "dbname"
+    host: "dbhost:port"
+    user: "dbuser"
+    pass: "dbpass"
+  amqp:
+    uri: "amqp://user:pass@rabbimqhost:port/vhost"
+    exchange_name: "exchange-name"
+    excahnge_type: "direct"
+    queue: "queuename"
+    key: "amqpbindingkey"
+    consumer_tag: "gohumid-consumer"
