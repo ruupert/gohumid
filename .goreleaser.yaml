@@ -22,12 +22,7 @@ checksum:
   name_template: "checksums.txt"
 
 source:
-  enabled: true
-
-sboms:
-  - artifacts: archive
-  - id: source
-    artifacts: source
+  enabled: false
 
 archives:
   - format: tar.gz
